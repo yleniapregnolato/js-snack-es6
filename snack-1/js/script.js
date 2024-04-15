@@ -38,4 +38,4 @@ let {name, weigth} = ligthBike;
 console.log("la bici più leggera è ${name}");
 
 // stampo nel dom il risultato
-bike.innerHTML = `<div>la bici più leggera è ${name}</div>`;
+bike.innerHTML = `la bici più leggera è ${name}`;
