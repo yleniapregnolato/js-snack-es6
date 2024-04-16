@@ -28,8 +28,11 @@ let newPeople = [];
 
 people.forEach((curDrivers) => {
     if (curDrivers.età >= 18) {
-        newPeople.push (curDrivers);
+        curDrivers.text = "Si, può guidare";
+        newPeople.push(curDrivers);
+        
     } else {
+        curDrivers.text = "No, non può guidare";
         newPeople.push (curDrivers);
     }
 })
