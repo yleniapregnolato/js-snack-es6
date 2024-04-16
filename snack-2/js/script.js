@@ -31,4 +31,18 @@ myTeams.forEach((curTeam) => {
 
 console.log(myTeams);
 
+const newTeams = myTeams.map((curTeam) => {
+    const {name, fouls} = curTeam;
+    return {
+        name,
+        fouls,
+    };
+});
+
+console.log(newTeams);
+
+function getRdnInteger(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
 
