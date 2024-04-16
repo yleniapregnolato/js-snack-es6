@@ -4,9 +4,11 @@ Crea quindi un nuovo array inserendo, per ogni persona, una frase con il nome e 
 
 ## PROCEDIMENTO
 - creo un array di oggetti
+- creo una variabile con un array vuoto
 - con un ciclo foreach scorro l'array imposto una condizione
   se l'età è maggiore di 18 
   allora 
     la persona può guidare
   altrimenti
      la persona non può guidare
+- pusho i risultati nella nuova array
