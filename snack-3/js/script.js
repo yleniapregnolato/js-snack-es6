@@ -12,3 +12,38 @@ const automobili = [
     { marca: "Opel", modello: "Corsa", alimentazione: "gpl" }
   ];
 
+console.log(automobili);
+
+let autoBenzina = [];
+let autoDiesel = [];
+let auto = [];
+
+autoBenzina = automobili.filter((curAuto) => {
+    if (curAuto.alimentazione === "benzina") {
+        return true;
+    } else {
+        return false;
+    }
+})
+
+console.log(autoBenzina);
+
+autoDiesel = automobili.filter((curAuto) => {
+    if (curAuto.alimentazione === "diesel") {
+        return true;
+    } else {
+        return false;
+    }
+})
+
+console.log(autoDiesel);
+
+auto = automobili.filter((curAuto) => {
+    if (curAuto.alimentazione !== "benzina" && curAuto.alimentazione !== "diesel") {
+        return true;
+    } else {
+        return false;
+    }
+})
+
+console.log(auto);

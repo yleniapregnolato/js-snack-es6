@@ -3,6 +3,5 @@
 - Dividi le automobili in 3 array separati: nel primo array solo le auto a benzina, nel secondo solo le auto a diesel, nel terzo il resto delle auto.
 
 ## PROCEDIMENTO
-- imposto un ciclo foreach per prelevare ogni categoria di auto
-- salvo il risultato in una variabile di appoggio
-- con filter creo le nuove array che soddisfano le varie condizioni
+- dichiaro tre variabili di array vuote dove salverò gli elementi
+- con filter salvo all'interno di ogni variabile l'array nuova che soddisferà le tre diverse condizioni
