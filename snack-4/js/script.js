@@ -28,8 +28,10 @@ let newPeople = [];
 
 people.forEach((curDrivers) => {
     if (curDrivers.età >= 18) {
-        newPeople.push (curDrivers.nome, curDrivers.cognome)
-    } else
+        newPeople.push (curDrivers);
+    } else {
+        newPeople.push (curDrivers);
+    }
 })
 
 console.log(newPeople);
