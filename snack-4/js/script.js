@@ -1,4 +1,5 @@
 
+// creo un array di oggetti
 const people = [
     {
         nome: "mario",
@@ -18,3 +19,17 @@ const people = [
         età: 48
     },
 ]
+console.log(people);
+// definisco con una variabile un arry vuoto
+
+let newPeople = [];
+
+// imposto un ciclo foreach
+
+people.forEach((curDrivers) => {
+    if (curDrivers.età >= 18) {
+        newPeople.push (curDrivers.nome, curDrivers.cognome)
+    } else
+})
+
+console.log(newPeople);
